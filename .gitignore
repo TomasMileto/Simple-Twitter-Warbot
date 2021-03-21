@@ -1,4 +1,4 @@
-
+# Git Ignore for a standart .net core app
 *.swp
 *.*~
 project.lock.json
@@ -28,3 +28,6 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
+
+# !Config folder
+[Cc]onfig/
